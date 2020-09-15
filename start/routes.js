@@ -24,3 +24,4 @@ Route.get("/api/store", "StoreController.index");
 
 Route.post("/api/store", "StoreController.store");
 Route.delete("/api/store/:id", "StoreController.delete");
+Route.put("/api/store", "StoreController.update");
