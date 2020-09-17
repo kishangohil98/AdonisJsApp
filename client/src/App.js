@@ -33,7 +33,7 @@ function App() {
   const onChngeUpdate = (e) => {
     setupdate_data({
       ...update_data,
-      [e.target.name]: e.target.value.trim(),
+      [e.target.name]: e.target.value,
     });
   };
 

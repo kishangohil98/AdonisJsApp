@@ -8,7 +8,7 @@ class ProductsSchema extends Schema {
     this.create("products", (table) => {
       table.increments("id");
       table.string("product_name", 100);
-      table.integer("quantity", 100);
+      table.integer("quantity ", 100);
       table.integer("unit_price", 100);
       table.integer("total_price", 100);
       table.timestamps();

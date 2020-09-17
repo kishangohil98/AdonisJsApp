@@ -8,7 +8,8 @@ class StoreController {
       const product = new Product();
       const product_data = await Product.all();
       //console.log(product_data);
-      return response.status(200).json(product_data);
+      // return response.status(200).json(product_data);
+      return product_data;
     } catch (err) {
       console.log(err);
     }
